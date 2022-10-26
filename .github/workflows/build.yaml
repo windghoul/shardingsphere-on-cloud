@@ -24,7 +24,6 @@ on:
       - release**
       - main
     tags:
-      - v**
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}/apache-shardingsphere-operator
