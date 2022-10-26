@@ -19,10 +19,6 @@ name: Create and publish a Docker image
 
 on:
   push:
-    branches:
-      - dev**
-      - release**
-      - main
     tags:
 env:
   REGISTRY: ghcr.io
